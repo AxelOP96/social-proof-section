@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'League Spartan', sans-serif;
+}
+.title{
+    color: hsl(300, 43%, 22%);
+    padding: 30px;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+}
+.text{
+    text-align: center;
+    padding: 0 39px 10px 39px;
+    color: hsl(303, 10%, 53%);
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+.review{
+    background-color: hsl(300, 24%, 96%);
+    width: 345px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px auto;
+    /*
+    hsl(303, 10%, 53%)
+    Light Grayish Magenta: hsl(300, 24%, 96%)
+    White: hsl(0, 0%, 100%); */
+}
+.star{
+    padding: 5px;
+}
+.violet{
+    color: hsl(300, 43%, 22%);
+}
+.buyer{
+    width: 345px;
+    height: 170px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px auto;
+    background-color: hsl(300, 43%, 22%);
+    color: hsl(0, 0%, 100%);
+}
+.avatar{
+    border-radius: 50%;
+    width: 30px;
+}
+.space{
+    padding: 0 43px;
+    text-align: left;
+}
+.row{
+    display: flex;
+    padding: 24px 43px;
+}
+.column{
+    padding: 0 15px;
+}
+.magenta{
+    color:hsl(333, 80%, 67%);
+    margin: 2px 0;
+}
+@media (min-width: 500px){
+    .main{
+        display: flex;
+        width: 80%;
+        margin: auto;
+    }
+    .title, .text{
+        text-align: left;
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+    }
+    .second{
+        display: flex;
+        width: 45%;
+    }
+    .third{
+        display: flex;
+        justify-content: space-evenly;
+        width: 80%;
+        margin: auto;
+    }
+    .two{
+        margin-top: 25px;
+    }
+    .three{
+        margin-top: 40px;
+    }
+    .buyer{
+        width: 32%;
+    }
+    .review{
+        display: flex;
+    }
+    .violet{
+        margin-top: 12px;
+        margin-left: 10px;
+    }
+    .container{
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    .medium{
+        margin-left: 75px;
+    }
+    .right{
+        margin-left: 100px;
+    }
+}
